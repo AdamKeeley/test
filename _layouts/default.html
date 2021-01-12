@@ -14,13 +14,19 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <!--<h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>-->
         
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
+        
+        <h1>Navigation</h1>
+        <ul>
+          <li><a href="./index">Index</a></li>
+          <li><a href="./test">Test</a></li>
+        </ul>
         
         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
@@ -41,11 +47,6 @@
       <section>
 
       {{ content }}
-        <h1>Navigation</h1>
-        <ul>
-          <li><a href="./index">Index</a></li>
-          <li><a href="./test">Test</a></li>
-        </ul>
 
       </section>
       <footer>
