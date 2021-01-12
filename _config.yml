@@ -1,1 +1,10 @@
 theme: jekyll-theme-slate
+
+docs_list_title: ACME Documentation
+docs:
+
+- title: Index
+  url: index.md
+
+- title: Test
+  url: test.md
