@@ -1,3 +1,9 @@
+---
+layout: default
+title: Welcome to GitHub Pages
+nav_order: 0
+---
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/AdamKeeley/test/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
