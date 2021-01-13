@@ -1,4 +1,6 @@
+---
 title: "Installing R Packages"
+---
 
 VREs within LASER lack internet connectivity by design, so R packages cannot be installed from CRAN.
 
@@ -15,7 +17,7 @@ DAT have read/write access to R: drive only from the DAT - Data Transfer Server.
 
 Add package name(s) to pkg and run to add the package(s) and dependencies to the LASER miniCRAN repository:
 
-```{markdown}
+```markdown
 # Set variable values
 pkg <- c() # Add package names to this vector
 pth <- "\\\\azlrdprepos.file.core.windows.net/r-repo/miniCRAN"
@@ -34,7 +36,7 @@ The method is the same as usual, we just need to point to the miniCRAN repositor
 
 Add package name(s) to pkg and run to install package(s) and dependencies from the LASER miniCRAN repository:
 
-```{markdown}
+```markdown
 # Set variable values
 pkg <- c()
 pth <- "file:///R:/miniCRAN"
