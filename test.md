@@ -1,4 +1,4 @@
-##Installing R Packages
+## Installing R Packages
 
 VREs within LASER lack internet connectivity by design, so R packages cannot be installed from CRAN.
 
@@ -8,7 +8,7 @@ Members of the DAT can make packages available to be installed to a VRE from thi
 
 More detailed information can be found [here](https://cran.r-project.org/web/packages/miniCRAN/vignettes/miniCRAN-introduction.html).
 
-# Making packages available
+### Making packages available
 Before a researcher can install a package to their VRE from miniCRAN it must first be made available.
 
 DAT have read/write access to R: drive only from the DAT - Data Transfer Server. The R: drive can be navigated to via the file path: [\\\\azlrdprepos.file.core.windows.net\\r-repo\\miniCRAN](\\\\azlrdprepos.file.core.windows.net/r-repo/miniCRAN)
@@ -25,7 +25,7 @@ library("miniCRAN")
 addPackage(pkg, path = pth, repos = rep, type = c("win.binary", "source"))
 ```
 
-# Installing packages
+### Installing packages
 Once a package has been made available to R: drive it can be installed to a library within a VRE.
 
 All researchers should have read access to R: drive from all VREs.
