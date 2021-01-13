@@ -1,6 +1,4 @@
----
-title: "Installing R Packages"
----
+##Installing R Packages
 
 VREs within LASER lack internet connectivity by design, so R packages cannot be installed from CRAN.
 
